@@ -3,10 +3,10 @@ const countProps = function(obj) {
     console.log(array);
     // return array.length,
     const array2 = Object.values(obj);
-    // console.log(array2);
+    console.log(array2);
     // return array2.length,
-    // const array3 = Object.entries(obj);
-    // console.log(array3);
+    const array3 = Object.entries(obj);
+    console.log(array3);
     // return array3.length
   };
   
